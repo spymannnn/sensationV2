@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /404.html
+Disallow: /index.html
+Allow: /https://sensation.studion/
+Sitemap: https://sensation.studion/sitemap.xml
+Host: https://sensation.studion

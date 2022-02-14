@@ -1,0 +1,11 @@
+ErrorDocument 404 https://sensation.studion/404.html
+
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{HTTPS_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+RewriteEngine On
+RewriteRule ^index\.html$ / [R=301,L]

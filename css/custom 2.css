@@ -1,0 +1,76 @@
+/* Cursor */
+* {
+  cursor: pointer;
+}
+/* Как заказать видео */
+.radius6 {
+    width: 50%!important;
+  }
+/* Фильтрация */
+.filterDiv {
+  display: none;
+}
+.show { 
+  display: block;
+}
+/* Текст контакты  */
+.bold {
+  font-weight: 100!important;
+}
+
+/* Stock header */
+.hstock {
+  margin-bottom: 2%;
+}
+.secstock {
+  margin-bottom: 1%;
+}
+
+/* Соцсети hover */
+
+.ins:hover {
+  color: #26dac2;
+  transform: scale(1.5) rotateX(1turn);
+}
+.whats:hover {
+  color: #7FFF00;
+  transform: scale(1.5) rotateX(1turn);
+}
+.teleg:hover {
+  color: #0088CC;
+  transform: scale(1.5) rotateX(1turn);
+}
+.action-3:hover {
+  color: #1eaf9c;  
+}
+
+/* Курсор */
+.bold {
+  cursor: default;
+}
+
+/* Сделать заказ hover */
+.btnzak:hover {
+  color: white!important;
+}
+
+/* hover меню навигации */
+.linmenu:hover {
+  color: #26dac2!important;
+}
+
+/* Active категории товаров  */
+.active {
+  color: #1eaf9c;
+}
+/* Фон header, sale */
+.header-img {
+  background: linear-gradient(to top, #ffffff 0%, #808080 100%);
+}
+.sale-img {
+  background: linear-gradient(to bottom, #ffffff 0%, #808080 100%);
+}
+/* Прокрутка страницы */
+#topcontrol{z-index: 9999;}
+#topcontrol{margin-bottom: 10px;}
+#topcontrol{margin-right: 10px;}
